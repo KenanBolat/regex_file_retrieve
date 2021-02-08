@@ -23,4 +23,4 @@ files = [row for row in os.listdir(process_path) if re.search(pattern, row)]
 pprint.pprint(files)
 # Script run time
 end = datetime.datetime.now()
-print("Initiation time:", start, " Duration:", end - start)
+print("Initiation time:", str(start), " Duration:", str(end - start))
