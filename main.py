@@ -14,7 +14,7 @@ process_path = "./files"
 
 # Define pattern
 # pattern = r"(^[x]{4}_OSV_(" + "|".join(file_flags) + ")_\d{8})|(^tle_\d{8}.txt)"
-pattern = r"(^[x]{4}_OSV_(N15|N18|N19|M01)_(.*?))|(^tle_(.*?).txt)"
+pattern = r"^[x]{4}_OSV_(N15|N18|N19|M01)_(.*?)|^tle_(.*?).txt"
 
 
 # apply filtering
